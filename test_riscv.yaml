@@ -1,0 +1,34 @@
+---
+project:
+  name: "RISC-V Processor"
+  version: "2.1.0"
+  created: "2025-01-15"
+  
+team:
+  lead: "Dr. Smith"
+  members:
+    - name: "Alice Johnson"
+      role: "Hardware Engineer"
+      id: "EMP001"
+    - name: "Bob Wilson" 
+      role: "Verification Engineer"
+      id: "EMP002"
+      
+specifications:
+  architecture: "RV64GC"
+  frequency: 1000  # MHz
+  pipeline_stages: 5
+  cache_sizes:
+    l1_instruction: "32KB"
+    l1_data: "32KB" 
+    l2_unified: "256KB"
+    
+features:
+  - "Branch Prediction"
+  - "Out-of-Order Execution"
+  - "Vector Extensions"
+  
+status:
+  design_complete: true
+  verification_progress: 0.85
+  tape_out_date: "2025-12-01"
